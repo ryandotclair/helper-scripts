@@ -1,0 +1,1 @@
+ping google.com | xargs -L 1 -I '{}' date '+%+: {}'
